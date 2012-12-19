@@ -1,0 +1,15 @@
+<h1>Listado de pel&iacute;culas</h1>
+
+<br>
+<div>
+    <h2>T&iacute;tulos</h2>
+</div>
+<div id="covers">
+<% @movies.each do |movie| %>
+        
+  <%= link_to image_tag(movie.title+"-thumb.jpeg",:size => "120x160", alt: movie.title), movie %>
+
+<% end %>
+</div>
+
+

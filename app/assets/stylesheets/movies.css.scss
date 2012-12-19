@@ -1,0 +1,21 @@
+// Place all the styles related to the Movies controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#movie_data_body{
+  background-color: #989898
+    
+}
+#movie_data {
+  height: 500px;
+}
+
+#movie_cover{
+  float:left;
+  padding-right:15px;
+
+  
+}
+
+#movie_trailer {
+  text-align: center  
+}
